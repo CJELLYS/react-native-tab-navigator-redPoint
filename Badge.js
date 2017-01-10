@@ -19,6 +19,7 @@ export default class Badge extends React.Component {
 
   state = {
     computedSize: null,
+    borderRadius:0,
   };
 
   render() {
@@ -35,7 +36,8 @@ export default class Badge extends React.Component {
         {...this.props}
         numberOfLines={1}
         onLayout={this._handleLayout}
-        style={[styles.container, this.props.style, style]}>
+        style={[styles.container, this.props.style, style,{ borderRadius: this.state.borderRadius/2.0}]} 
+        allowFontScaling = {false}>
         {this.props.children}
       </Text>
     );
@@ -51,6 +53,7 @@ export default class Badge extends React.Component {
 
     this.setState({
       computedSize: { width, height },
+      borderRadius: height,
     });
 
     if (this.props.onLayout) {
@@ -68,7 +71,6 @@ let styles = StyleSheet.create({
     textAlign: 'center',
     borderWidth: 1,
     borderColor: '#fefefe',
-    borderRadius: 17 / 2,
     overflow: 'hidden',
   },
 });
