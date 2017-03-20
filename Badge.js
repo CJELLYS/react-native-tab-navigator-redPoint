@@ -74,8 +74,6 @@ let styles = StyleSheet.create({
     backgroundColor: 'rgb(208,60,40)',
     lineHeight: 15,
     textAlign: 'center',
-    borderWidth: 1,
-    borderColor: '#fefefe',
     overflow: 'hidden',
   },
 });

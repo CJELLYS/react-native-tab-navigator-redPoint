@@ -111,12 +111,13 @@ export default class TabNavigator extends React.Component {
     } else if (item.props.renderIcon) {
       icon = item.props.renderIcon();
     }
-    console.log('红点数量dotNumber==>',item.props.dotNumber);
     let badge;
     if (item.props.renderBadge) {
       badge = item.props.renderBadge();
     } else if (item.props.badgeText) {
+      if(item.props.display===true){
         badge = <Badge dotNumber={item.props.dotNumber}>{item.props.badgeText}</Badge>; 
+      }
     }
 
     return (
