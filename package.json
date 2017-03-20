@@ -11,10 +11,31 @@
         "type": "range"
       },
       "/Users/caoguodong/Desktop/Both/rcshop-onreact"
+    ],
+    [
+      {
+        "raw": "react-native-tab-navigator@git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+        "scope": null,
+        "escapedName": "react-native-tab-navigator",
+        "name": "react-native-tab-navigator",
+        "rawSpec": "git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+        "spec": "git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:CJELLYS/react-native-tab-navigator-redPoint.git",
+          "sshUrl": "git+ssh://git@github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+          "httpsUrl": "git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+          "gitUrl": "git://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+          "shortcut": "github:CJELLYS/react-native-tab-navigator-redPoint",
+          "directUrl": "https://raw.githubusercontent.com/CJELLYS/react-native-tab-navigator-redPoint/master/package.json"
+        }
+      },
+      "/Users/caoguodong/Desktop/Both/rcshop-onreact"
     ]
   ],
   "_cnpm_publish_time": 1470340627704,
-  "_from": "react-native-tab-navigator@>=0.3.3 <0.4.0",
+  "_from": "git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
   "_id": "react-native-tab-navigator@0.3.3",
   "_inCache": true,
   "_location": "/react-native-tab-navigator",
@@ -30,21 +51,30 @@
   "_npmVersion": "3.10.5",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-native-tab-navigator@^0.3.3",
+    "raw": "react-native-tab-navigator@git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
     "scope": null,
     "escapedName": "react-native-tab-navigator",
     "name": "react-native-tab-navigator",
-    "rawSpec": "^0.3.3",
-    "spec": ">=0.3.3 <0.4.0",
-    "type": "range"
+    "rawSpec": "git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+    "spec": "git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:CJELLYS/react-native-tab-navigator-redPoint.git",
+      "sshUrl": "git+ssh://git@github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+      "httpsUrl": "git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+      "gitUrl": "git://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
+      "shortcut": "github:CJELLYS/react-native-tab-navigator-redPoint",
+      "directUrl": "https://raw.githubusercontent.com/CJELLYS/react-native-tab-navigator-redPoint/master/package.json"
+    }
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npm.taobao.org/react-native-tab-navigator/download/react-native-tab-navigator-0.3.3.tgz",
-  "_shasum": "b222bad21fbe773c8d28f9a0de30ce62b08724d3",
+  "_resolved": "git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git#9239ba41d41102c2f648388d69590bcb27771b8b",
+  "_shasum": "cd4257d8f766ed74f40315e592a4ba397c6ae6d0",
   "_shrinkwrap": null,
-  "_spec": "react-native-tab-navigator@^0.3.3",
+  "_spec": "react-native-tab-navigator@git+https://github.com/CJELLYS/react-native-tab-navigator-redPoint.git",
   "_where": "/Users/caoguodong/Desktop/Both/rcshop-onreact",
   "author": {
     "name": "James Ide"

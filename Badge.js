@@ -30,7 +30,8 @@ export default class Badge extends React.Component {
     } else {
       style.width = Math.max(computedSize.height, computedSize.width);
     }
-
+    console.log('this.props.dotNumber=>',this.props.dotNumber);
+   if(this.props.dotNumber===true){
     return (
       <Text
         {...this.props}
@@ -41,6 +42,10 @@ export default class Badge extends React.Component {
         {this.props.children}
       </Text>
     );
+  }else{
+    return <Text onLayout={this._handleLayout} style={[styles.container, this.props.style, style,{borderRadius:5,width:10,height:10}]}></Text>
+  }
+      
   }
 
   _handleLayout(event) {
